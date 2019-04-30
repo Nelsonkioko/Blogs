@@ -59,10 +59,6 @@ CSS
 
 3.  From a terminal window, change to the local directory where you want to clone your repository.
 
-or just use this
-
-`$ git clone https://github.com/watibini/blogs.git`
-
 4. Run the following command to make the app executable;
 
 `$ chmod a+x start.sh`
