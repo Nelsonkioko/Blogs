@@ -8,7 +8,7 @@ from flask_login import login_required,current_user
 
 @main.route('/')
 def index():
-  random_quote = get_quote()  
+  random_quote = get_quote()   
 
   blogs = Blog.query.all()
   lifestyle = Blog.query.filter_by(category='Lifestyle').all()
