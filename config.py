@@ -18,7 +18,7 @@ class Config:
 
 class ProdConfig(Config):
   pass
-  # SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL')
+  SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL')
 
 class TestConfig(Config):
   pass
@@ -27,7 +27,7 @@ class DevConfig(Config):
   DEBUG = True
 
 config_options = {
-  'development': DevConfig,
+  # 'development': DevConfig,
   'production': ProdConfig,
   'test': TestConfig
 }
