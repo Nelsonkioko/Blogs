@@ -16,7 +16,7 @@ class Quote:
     self.id = id
     self.author = author
     self.quote = quote
-
+ 
 class Blog(db.Model):
   '''
   Class that defines blog objects
