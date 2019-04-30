@@ -1,6 +1,6 @@
 # BLOG MY LIFE
 
-This is an app that allows users to view daily personal blog of David Watibini.
+This is an app that allows users to view daily blogs
 
 ## Author name
 
