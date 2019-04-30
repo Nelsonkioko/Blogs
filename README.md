@@ -91,15 +91,6 @@ CSS
 
 **output**:comments are saved to that specific blog
 
-## TDD
-
--To test the app, run this commands in the terminal;
-
-`$ python3.6 test_users.py`
-
-`$ python3.6 test_blog.py`
-
-`$ python3.6 test_quote.py`
 
 ## Live link
 
