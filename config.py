@@ -13,6 +13,8 @@ class Config:
   MAIL_USE_TLS = True
   MAIL_USERNAME = os.environ.get("MAIL_USERNAME")
   MAIL_PASSWORD = os.environ.get("MAIL_PASSWORD")
+  SUBJECT_PREFIX= 'blogs website'
+  SENDER_EMAIL= 'kiokonelson2@gmail.com'
 
 class ProdConfig(Config):
   pass
