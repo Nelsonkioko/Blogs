@@ -1,4 +1,4 @@
-# BLOG MY LIFE
+# YOUR DAILY BLOG
 
 This is an app that allows users to view daily blogs
 
