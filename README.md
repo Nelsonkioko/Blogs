@@ -2,13 +2,14 @@
 
 This is an app that allows users to view daily blogs
 
+
 ## Author name
 
 Nelson kioko
 
 ## Project Description
 
-This is an app that allows users to view daily personal blogs written by David WAtibini concerning all aspects of life.
+This is a site to post your blogs if you are a writing enthusiast
 
 
 ## Technologies Used
