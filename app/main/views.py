@@ -109,7 +109,7 @@ def comment_review(id):
     db.session.add(new_post)
     db.session.commit()  
     
-  post = 'Share Your Sentiments'
+  post = 'Pour your heart out'
   user=User.query.get(id)
   comments = Comment.query.filter_by(topic=blog.id).all()  
   if blog is None:
