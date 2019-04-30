@@ -4,9 +4,9 @@ from wtforms.validators import Required
 
 class BlogForm(FlaskForm):
   title = StringField('Blog title')
-  category = SelectField("Choose Category",choices=[('Lifestyle','LifeStyle'),('Fitness','Health & Fitness'),('Trending','Trends'),('IT','Technology')])
+  category = SelectField("Choose Category",choices=[('Lifestyle','LifeStyle'),('Fitness','Fitness'),('Trending','Latest Trends'),('IT','Technology')])
   blog_post = TextAreaField('Write Blog',validators=[Required()])
-  writer = StringField('Your alias name')
+  writer = StringField('add your name')
   submit = SubmitField('Submit')
 
 class UpdateProfile(FlaskForm):

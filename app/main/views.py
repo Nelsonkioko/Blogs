@@ -121,14 +121,14 @@ def comment_review(id):
 @login_required
 def delete_comment(blog_id,comment_id): 
   
-  # blog = Blog.query.filter_by(id = blog_id).first()
-  # comments = Comment.query.filter_by(topic = blog.id).order_by(Comment.posted.desc())
-  # comment = Comment.query.filter_by(id = comment_id).first()
-  # if blog.user_id == current_user.id:
+  blog = Blog.query.filter_by(id = blog_id).first()
+  comments = Comment.query.filter_by(topic = blog.id).order_by(Comment.posted.desc())
+  comment = Comment.query.filter_by(id = comment_id).first()
+  if blog.user_id == current_user.id:
 
-  #   Comment.delete_comment(comment)
+    Comment.delete_comment(comment)
 
-  # return render_template('blog_comments.html', blog = blog, comments = comments)
+  return render_template('blog_comments.html', blog = blog, comments = comments)
   comment_form = CommentForm()
   blog=Blog.query.get(id)
   comment = Comment.query.filter_by(id = comment_id).first()
